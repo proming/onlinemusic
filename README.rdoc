@@ -1,0 +1,35 @@
+= onlinemusic
+
+* https://github.com/proming/onlinemusic
+
+== Description:
+
+Onlinemusic是Rhythmbox的网络音乐播放插件，目前实现了从G.cn获取歌曲信息和专集信息，并支持根据歌名、专辑、歌手名搜索歌曲。
+
+== Install:
+
+安装前请确认使用的是Rhythmbox V0.13以上版本，以及删除以前版本程序避免插件冲突。
+使用插件需要将onlinemusic目录放在以下特定位置：
+    ~/.gnome2/rhythmbox/plugins/
+    #目录不存在时，可自行创建
+或
+    /usr/lib/rhythmbox/plugins/
+    ＃需要管理员权限
+插件安装完成之后，进入Rhythmbox->Edit->Plugins,启用onlinemusic。
+
+== History
+0.2 - December 2010
+- 增加搜索歌曲的功能
+- 实时获取音乐专题信息
+- 增加显示google音乐歌词
+- 增加显示歌曲封面的功能
+- 增加动态显示歌曲加载进度
+- 解决加载歌曲曲目过多时，播放器无响应的问题
+- 修正音乐加载失败问题
+- 修正获取不到音乐专题信息的问题
+- 修正由插件引起播放器退出很慢的问题
+
+0.1 - December 2009
+- google音乐排行榜支持
+- google音乐专题支持
+- 提供CreateXML.py工具获取排行榜和音乐专题信息
