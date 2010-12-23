@@ -1,0 +1,9 @@
+[RB Plugin]
+Loader=python
+Module=onlinemusic
+IAge=1
+Name=onlinemusic
+Description=Adds support to Rhythmbox for playing and downloading albums from Internet
+Authors=kanglog.com \nproming<promingx@gmail.com>
+Copyright=Copyright © 2009 kanglog.com\nCopyright © 2009-2010 proming
+Website=http://www.kanglog.com/ \nhttp://flm.appspot.com
